@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tank{
+    /* border: 2px solid green; */
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.room{
+    /* border: 1px solid white; */
+    width: 40vw;
+    height: 60vh;
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px white;
+}
+.login{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pass1{
+    /* border: 2px solid blue; */
+    width: 35vw;
+    height: 4.24rem;
+    margin: 12px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.pass1 input{
+    width: 20vw;
+    height: 2.3rem;
+    background-color:rgba(217, 217, 217, 0.23);
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 8px;
+    transition: all 0.2s;
+
+    
+}
+.pass1 input:hover{
+
+    width: 26rem;
+    height:2.4rem ;
+}
+.pass1 label{
+    font-size: 1.5rem;
+}

@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+.huge{
+    /* border: 2px solid green; */
+    height: 120vh;
+    width: 99vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.huge2{
+    /* border: 1px solid white; */
+    width: 40vw;
+    height: 100vh;
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px white;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 1.3rem;
+    margin-top: 3rem;
+}
+.signup{
+    /* border: 2px solid white; */
+    height: 80vh;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    /* align-items: center; */
+}
+.name{
+    /* border: 2px solid blue; */
+    margin: 23px;
+    padding: 12px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row ;
+}
+.name label{
+    font-size: 1.8rem;
+}
+.name .input{
+    /* margin-left:8rem;    */
+   
+    /* flex-direction: column; */
+    /* margin: auto; */
+    height: 2.3rem;
+    width: 25rem;
+    font-size: 1.5rem;
+    background-color: rgba(217, 217, 217, 0.23);
+    border: none;
+    color: white;
+    /* padding: 23px 12px 12px 12px; */
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+.name input:hover{
+
+    width: 26rem;
+    height:2.4rem ;
+}
+.name .pass{
+    width: 22rem;
+    margin-left:53px ;
+    height:2.3rem ;
+    background-color: rgba(217, 217, 217, 0.23);
+    border: none;
+}
+
+
+.gender{
+    /* border: 2px solid green; */
+    margin: 23px;
+    padding-bottom: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    
+
+}
+.gender .radio{
+    font-size: 1.5rem;   
+    margin-left:12px;
+}
+.button{
+    /* border: 2px solid red; */
+    margin-top: 32px;
+}
+.btn{
+    
+}
