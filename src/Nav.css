@@ -1,0 +1,241 @@
+:root{
+    --gold: #efc75e;
+    --white: #ffffff;
+    --black: black;
+  }
+  
+.Nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 98%;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px var(--gold);
+}
+.navbar .logo{
+    height: 3rem;
+    display: flex;
+    margin: 2px 3px;
+}
+.navbar .logo label{
+    margin-left: 1rem;
+}
+.navbar .logo label:hover .navelement{
+    display: block;
+}
+.navbar .logo img{
+    height: 100%;
+    width: 100%;
+
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.navbar ul li{
+    list-style: none;
+    padding: 2px;
+    margin: 3px;
+}
+.fa-magnifying-glass, .fa-search {
+    content: "\f002";
+    position: relative;
+    right: 25%;
+    color: var(--gold);
+}
+.navbar .search-bar {
+   
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.search-bar label i{
+    margin-top: 5px;
+}
+.navbar .search-bar input{
+  
+    border-radius: 25px;
+    text-decoration: none;
+    width: 110%;
+    height: 50%;
+    margin: 0px 0px;
+    background-color: var(--black);
+    color: var(--gold);
+    font-size: 1.3rem;
+    border: 2px solid  var(--gold);
+    padding: 6px 56px;
+   
+
+}
+.search-bar:hover{
+  border:none;
+}
+
+.navbar .userin {
+    width: 14%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.fa-solid, .fas {
+    font-weight: 900;
+    font-size: 1.4em;
+}
+.fa-circle-user:before, .fa-user-circle:before {
+    content: "\f2bd";
+    position: relative;
+    right: 50%;
+    font-size: 1.9rem;
+    cursor: pointer;
+    color: var(--gold);
+}
+.navbar .userin ul{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    padding: 0px 0px;
+    top: 3.4rem;
+    right: 11rem;
+    background-color: var(--gold);
+    color: black;
+    border-radius: 11px;
+    height: 93%;
+    cursor: pointer;
+    display: none;
+}
+.navbar .userin ul li{
+    list-style: none;
+    height: 12%;
+    color: black;
+    margin-bottom: 14px;
+    padding: 0px;
+}
+.navbar .userin ul li Link{
+    color: black;
+}
+
+.urserin button{
+    cursor: pointer;
+    height: 10%;
+    padding: 4px 13px;
+}
+ .login{
+    padding: 4px 16px;
+    margin: 0px 5px;
+    border: none ;
+    background-color: var(--gold);
+    color: var(--black);
+    transition: 0.3s;
+    border-radius: 4px;
+}
+ 
+ .signin{
+    padding: 4px 16px;
+    margin: 0px 5px;
+    background-color: var(--gold);
+    color: var(--black);
+    border-radius: 4px;
+    transition: 0.3s;
+    border: 2px solid var(--black);
+}
+  .signin:hover{
+    background-color: var(--black);
+    color: var(--gold);
+    border: 2px solid var(--gold);
+
+  }
+  .login:hover{
+    background-color: var(--black);
+    border: 2px solid var(--gold);
+    color: var(--gold);
+  }
+  [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+    height: 10%;
+    margin: auto;
+}
+.fa-house:before, .fa-navicon:before {
+    content: "\f0c9";
+    color: var(--gold);
+    position: absolute;
+        top: 1.5rem;
+    left: 12rem;
+    font-size: 1.7rem;
+   
+}   
+@media screen and (max-width: 1400px){
+   
+    .navbar .userin {
+        width: 20%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .navbar .userin {
+        width: 24%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .navbar .userin {
+        width: 26%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .navbar .userin {
+        width: 28%;
+    }
+    .navbar button {
+       display: none;
+    }
+    .navbar .userin{
+        width: 5%;
+    }
+    .navbar .logo{
+        width: 23%;
+    }
+    
+    .navbar .search-bar{
+       width: 58%;
+    }
+    .navbar .search-bar input{
+        padding: 3px 37px;
+        font-size: 1rem;
+    }
+    .navbar .userin ul{
+        right: 1rem;
+        width: 12%;
+    }
+  }
+  
+  @media screen and (max-width: 700px) {
+    .fa-circle-user:before, .fa-user-circle:before{
+        font-size: 2rem;
+  
+    }
+    .fa-house:before, .fa-navicon:before {
+       
+        left: 10rem;
+       
+       
+    }   
+}
+@media screen and (max-width: 500px){
+
+    .navbar .userin ul{
+        right: 1rem;
+        width: 25%;
+    }
+}
